@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matecito</title>
+    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gloock&family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="relative h-full">
+    <div id="menu-container"
+        class="fixed w-full h-screen bg-black bg-opacity-50 text-white text-3xl justify-center content-center z-50 transition-opacity duration-300 hidden opacity-0">
+        <div class="menu-items grid font-sans text-center">
+            <button class="close-menu grid justify-center mb-10 pointer hover:rotate-90 duration-500">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                    stroke="currentColor" class="w-16 h-w-16">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <a href=""
+                class="mb-4 inline-block hover:text-gray-300 hover:ease-linear duration-300 hover:underline hover:underline-offset-12">Sobre
+                mi</a>
+            <a href=""
+                class="mb-4 inline-block hover:text-gray-300 hover:ease-linear duration-300 hover:underline hover:underline-offset-12">¿Necesitas
+                soporte?</a>
+            <a href=""
+                class="mb-4 inline-block hover:text-gray-300 hover:ease-linear duration-300 hover:underline hover:underline-offset-12">Algunos
+                trabajos</a>
+            <a href=""
+                class="mb-4 inline-block hover:text-gray-300 hover:ease-linear duration-300 hover:underline hover:underline-offset-12">Canales
+                y contacto</a>
+
+        </div>
+    </div>
+    <header class="container p-4 mb-4">
+        <div class="title-header grid grid-cols-2 justify-center align-middle pb-4">
+            <div class="title">
+                <h1 class="font-title text-4xl font-bold">
+                    <a href="">Matecito.AR</a>
+                </h1>
+            </div>
+            <nav class="pages grid justify-end">
+                <button id="menu-open" class="cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                    </svg>
+
+                </button>
+            </nav>
+        </div>
+        <hr>
+    </header>
+
+
+    <script src="./assets/js/theme-utilities.js"></script>
+</body>
+
+</html>
